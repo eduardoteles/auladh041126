@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/open-props@1.7.23/open-props.min.css" rel="stylesheet">
+    <style>
+        /* size open props */
+        .card {
+            border: solid var(--border-size-3);
+            background-color: var(--surface-6);
+            padding: var(--size-2);
+            box-shadow: var(--shadow-4);
+            max-width: 400px;
+            margin-left: var(--size-px-4);
+            margin-top: var(--size-px-4);
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+        /* tipography open props */
+        .openpropsfont {
+            font-family: var(--font-antique);
+            font-size: var(--font-size-1);
+            color: var(--text-1);
+            text-align: center;
+        }
+        .card-container {
+            display: flex;
+            flex-direction: row;
+        }
+        .footer {
+            background-color: var(--surface-3);
+            padding: var(--size-2);
+            text-align: center;
+            margin-top: var(--size-7);
+        }
+    </style>
+</head>
+  <body>
+    <h1>Titulo da nossa página</h1>
+    <div class="card-container">
+        <div class="card">
+            <h2>Titulo 1</h2>
+            <p class="openpropsfont">This is a simple card component using Open Props.</p>
+        </div>
+        <div class="card">
+            <h2>Titulo 2</h2>
+            <p class="openpropsfont">This is a simple card component using Open Props.</p>
+        </div>
+        <div class="card">
+            <h2>Titulo 3</h2>
+            <p class="openpropsfont">This is a simple card component using Open Props.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="openpropsfont">© 2024 My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
